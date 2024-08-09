@@ -45,6 +45,7 @@ LIB_DEST_DIR="${pwd_path}/../output/android/curl-universal"
 
 echo "https://github.com/curl/curl/releases/download/${LIB_VERSION}/${LIB_NAME}.tar.gz"
 
+# https://github.com/curl/curl/releases/download/curl-8_9_1/curl-8.9.1.tar.gz
 # https://curl.haxx.se/download/${LIB_NAME}.tar.gz
 # https://github.com/curl/curl/releases/download/curl-7_69_0/curl-7.69.0.tar.gz
 # https://github.com/curl/curl/releases/download/curl-7_68_0/curl-7.68.0.tar.gz
