@@ -35,8 +35,8 @@ pwd_path="$(cd -P "$(dirname "$SOURCE")" && pwd)"
 echo pwd_path=${pwd_path}
 echo TOOLS_ROOT=${TOOLS_ROOT}
 
-LIB_VERSION="v1.9.2"
-LIB_NAME="lz4-1.9.2"
+LIB_VERSION="v1.9.4"
+LIB_NAME="lz4-1.9.4"
 LIB_DEST_DIR="${pwd_path}/../output/android/lz4"
 
 #echo "https://github.com/lz4/lz4/releases/download/${LIB_VERSION}/${LIB_NAME}.tar.gz"
