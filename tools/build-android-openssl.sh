@@ -45,12 +45,12 @@ LIB_VERSION="OpenSSL_$(echo $version | sed 's/\./_/g')"
 LIB_NAME="openssl-$version"
 LIB_DEST_DIR="${pwd_path}/../output/android/openssl-universal"
 
-echo "https://github.com/openssl/openssl/releases/download/openssl-3.3.1/openssl-3.3.1.tar.gz"
+echo "https://github.com/openssl/openssl/releases/download/${LIB_NAME}/${LIB_NAME}.tar.gz"
 
 # https://github.com/openssl/openssl/archive/OpenSSL_1_1_1d.tar.gz
 # https://github.com/openssl/openssl/archive/OpenSSL_1_1_1f.tar.gz
 rm -rf "${LIB_DEST_DIR}" "${LIB_NAME}"
-[ -f "${LIB_NAME}.tar.gz" ] || curl https://github.com/openssl/openssl/releases/download/openssl-3.3.1/openssl-3.3.1.tar.gz
+[ -f "${LIB_NAME}.tar.gz" ] || curl https://github.com/openssl/openssl/releases/download/${LIB_NAME}/${LIB_NAME}.tar.gz
 
 set_android_toolchain_bin
 
