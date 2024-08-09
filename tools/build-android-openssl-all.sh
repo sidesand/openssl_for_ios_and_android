@@ -1,4 +1,4 @@
-export api=23
+export api=21
 ./build-android-openssl.sh x86_64
 ./build-android-openssl.sh x86
 ./build-android-openssl.sh arm
