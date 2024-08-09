@@ -51,7 +51,7 @@ jobs:
           - target: android
             arch: arm64
             abi: arm64-v8a
-            api: 23
+            api: 33
 
           # OpenSSL version
           - component: openssl
@@ -138,7 +138,7 @@ jobs:
           - target: android
             arch: arm64
             abi: arm64-v8a
-            api: 23
+            api: 33
 
           # cURL version
           - component: curl
