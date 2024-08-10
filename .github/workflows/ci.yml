@@ -38,6 +38,7 @@ jobs:
         target: [android]
         abi: [arm64-v8a, armeabi-v7a, x86, x86_64]
         component: [openssl, nghttp2]
+        version: ["3.3.1", "1.62.1"]
         include:
           
           # iOS Configuration
